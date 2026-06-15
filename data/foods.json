@@ -1,0 +1,684 @@
+{
+  "foods": {
+    "grains": [
+      {
+        "id": "rice_basmathi",
+        "name": "Basmati Rice (cooked)",
+        "serving": "150g",
+        "calories": 195,
+        "protein": 4.4,
+        "carbs": 45,
+        "fat": 0.4,
+        "fiber": 0.6,
+        "regions": ["north", "west", "all"],
+        "types": ["vegetarian", "non-vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "roti",
+        "name": "Roti (Whole Wheat)",
+        "serving": "1 piece (30g)",
+        "calories": 80,
+        "protein": 2.5,
+        "carbs": 15,
+        "fat": 1.2,
+        "fiber": 2,
+        "regions": ["north", "west", "all"],
+        "types": ["vegetarian", "non-vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "idli",
+        "name": "Idli (Steamed Rice Cake)",
+        "serving": "2 pieces",
+        "calories": 140,
+        "protein": 4,
+        "carbs": 30,
+        "fat": 0.4,
+        "fiber": 1,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "dosa",
+        "name": "Masala Dosa",
+        "serving": "1 medium",
+        "calories": 180,
+        "protein": 5,
+        "carbs": 28,
+        "fat": 6,
+        "fiber": 2,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "poha",
+        "name": "Poha (Flattened Rice)",
+        "serving": "1 bowl (150g)",
+        "calories": 180,
+        "protein": 3,
+        "carbs": 38,
+        "fat": 2,
+        "fiber": 1,
+        "regions": ["west", "central"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "upma",
+        "name": "Upma (Semolina Dish)",
+        "serving": "1 bowl (150g)",
+        "calories": 200,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 4,
+        "fiber": 2,
+        "regions": ["south", "west"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "paratha",
+        "name": "Aloo Paratha",
+        "serving": "1 piece",
+        "calories": 260,
+        "protein": 6,
+        "carbs": 40,
+        "fat": 9,
+        "fiber": 3,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "thepla",
+        "name": "Thepla (Gujarati Flatbread)",
+        "serving": "1 piece",
+        "calories": 120,
+        "protein": 3,
+        "carbs": 18,
+        "fat": 4,
+        "fiber": 2,
+        "regions": ["west"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "uttapam",
+        "name": "Uttapam (Savory Pancake)",
+        "serving": "2 pieces",
+        "calories": 160,
+        "protein": 5,
+        "carbs": 28,
+        "fat": 3,
+        "fiber": 2,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "bhatura",
+        "name": "Bhatura",
+        "serving": "1 piece",
+        "calories": 300,
+        "protein": 7,
+        "carbs": 42,
+        "fat": 12,
+        "fiber": 1,
+        "regions": ["north"],
+        "types": ["vegetarian"]
+      }
+    ],
+    "proteins": [
+      {
+        "id": "dal_tadka",
+        "name": "Dal Tadka",
+        "serving": "1 bowl (200g)",
+        "calories": 180,
+        "protein": 12,
+        "carbs": 28,
+        "fat": 3,
+        "fiber": 8,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "jain"]
+      },
+      {
+        "id": "dal_fry",
+        "name": "Dal Fry",
+        "serving": "1 bowl (200g)",
+        "calories": 200,
+        "protein": 13,
+        "carbs": 25,
+        "fat": 5,
+        "fiber": 7,
+        "regions": ["north", "west"],
+        "types": ["vegetarian", "vegan", "jain"]
+      },
+      {
+        "id": "rasam",
+        "name": "Rasam (Tamarind Soup)",
+        "serving": "1 bowl (200ml)",
+        "calories": 80,
+        "protein": 3,
+        "carbs": 15,
+        "fat": 1,
+        "fiber": 2,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan", "jain"]
+      },
+      {
+        "id": "sambar",
+        "name": "Sambar",
+        "serving": "1 bowl (200g)",
+        "calories": 160,
+        "protein": 8,
+        "carbs": 28,
+        "fat": 2,
+        "fiber": 6,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "paneer_bhurji",
+        "name": "Paneer Bhurji",
+        "serving": "100g",
+        "calories": 250,
+        "protein": 18,
+        "carbs": 5,
+        "fat": 18,
+        "fiber": 0,
+        "regions": ["north", "west"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "paneer_tikka",
+        "name": "Paneer Tikka",
+        "serving": "100g",
+        "calories": 220,
+        "protein": 16,
+        "carbs": 6,
+        "fat": 15,
+        "fiber": 1,
+        "regions": ["north"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "paneer_curry",
+        "name": "Palak Paneer / Paneer Curry",
+        "serving": "150g",
+        "calories": 280,
+        "protein": 15,
+        "carbs": 12,
+        "fat": 20,
+        "fiber": 3,
+        "regions": ["north"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "egg_curry",
+        "name": "Egg Curry",
+        "serving": "2 eggs + gravy",
+        "calories": 280,
+        "protein": 20,
+        "carbs": 10,
+        "fat": 18,
+        "fiber": 2,
+        "regions": ["all"],
+        "types": ["non-vegetarian", "eggetarian"]
+      },
+      {
+        "id": "egg_omelette",
+        "name": "Masala Omelette",
+        "serving": "2 eggs",
+        "calories": 200,
+        "protein": 14,
+        "carbs": 2,
+        "fat": 15,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["non-vegetarian", "eggetarian"]
+      },
+      {
+        "id": "chicken_curry",
+        "name": "Chicken Curry",
+        "serving": "150g chicken",
+        "calories": 250,
+        "protein": 30,
+        "carbs": 8,
+        "fat": 10,
+        "fiber": 2,
+        "regions": ["all"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "fish_curry",
+        "name": "Fish Curry",
+        "serving": "150g fish",
+        "calories": 200,
+        "protein": 32,
+        "carbs": 6,
+        "fat": 5,
+        "fiber": 1,
+        "regions": ["south", "east", "west"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "mutton_curry",
+        "name": "Mutton Curry",
+        "serving": "150g mutton",
+        "calories": 300,
+        "protein": 28,
+        "carbs": 8,
+        "fat": 16,
+        "fiber": 2,
+        "regions": ["north", "west"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "tandoori_chicken",
+        "name": "Tandoori Chicken",
+        "serving": "150g",
+        "calories": 220,
+        "protein": 32,
+        "carbs": 4,
+        "fat": 8,
+        "fiber": 0,
+        "regions": ["north"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "chicken_tikka",
+        "name": "Chicken Tikka",
+        "serving": "100g",
+        "calories": 180,
+        "protein": 25,
+        "carbs": 5,
+        "fat": 7,
+        "fiber": 1,
+        "regions": ["north"],
+        "types": ["non-vegetarian"]
+      }
+    ],
+    "vegetables": [
+      {
+        "id": "sabzi_mixed",
+        "name": "Mixed Vegetable Sabzi",
+        "serving": "150g",
+        "calories": 100,
+        "protein": 4,
+        "carbs": 15,
+        "fat": 3,
+        "fiber": 5,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "aloo_gobi",
+        "name": "Aloo Gobi",
+        "serving": "150g",
+        "calories": 120,
+        "protein": 4,
+        "carbs": 18,
+        "fat": 4,
+        "fiber": 4,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan", "eggetarian"]
+      },
+      {
+        "id": "bhindi",
+        "name": "Bhindi Masala (Okra)",
+        "serving": "150g",
+        "calories": 110,
+        "protein": 4,
+        "carbs": 14,
+        "fat": 5,
+        "fiber": 4,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "baingan_bharta",
+        "name": "Baingan Bharta",
+        "serving": "150g",
+        "calories": 130,
+        "protein": 4,
+        "carbs": 18,
+        "fat": 5,
+        "fiber": 5,
+        "regions": ["north", "west"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "kerala_fish",
+        "name": "Kerala Fish Curry",
+        "serving": "150g",
+        "calories": 190,
+        "protein": 28,
+        "carbs": 8,
+        "fat": 5,
+        "fiber": 2,
+        "regions": ["south"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "machher_jhol",
+        "name": "Machher Jhol (Fish Curry)",
+        "serving": "150g",
+        "calories": 180,
+        "protein": 26,
+        "carbs": 8,
+        "fat": 5,
+        "fiber": 2,
+        "regions": ["east"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "lauki",
+        "name": "Lauki ki Sabzi (Bottle Gourd)",
+        "serving": "150g",
+        "calories": 60,
+        "protein": 2,
+        "carbs": 10,
+        "fat": 2,
+        "fiber": 3,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "tinda",
+        "name": "Tinda Masala (Apple Gourd)",
+        "serving": "150g",
+        "calories": 70,
+        "protein": 2,
+        "carbs": 12,
+        "fat": 2,
+        "fiber": 3,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "methi",
+        "name": "Methi ki Sabzi (Fenugreek)",
+        "serving": "100g",
+        "calories": 50,
+        "protein": 3,
+        "carbs": 8,
+        "fat": 1,
+        "fiber": 3,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "drumstick",
+        "name": "Drumstick Curry",
+        "serving": "150g",
+        "calories": 90,
+        "protein": 4,
+        "carbs": 15,
+        "fat": 2,
+        "fiber": 5,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "beans_carrot",
+        "name": "Beans and Carrot Poriyal",
+        "serving": "150g",
+        "calories": 80,
+        "protein": 3,
+        "carbs": 12,
+        "fat": 3,
+        "fiber": 4,
+        "regions": ["south"],
+        "types": ["vegetarian", "vegan"]
+      }
+    ],
+    "snacks": [
+      {
+        "id": "fruit_bowl",
+        "name": "Seasonal Fruit Bowl",
+        "serving": "1 bowl (150g)",
+        "calories": 80,
+        "protein": 1,
+        "carbs": 20,
+        "fat": 0,
+        "fiber": 3,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "roasted_chana",
+        "name": "Roasted Chana",
+        "serving": "50g",
+        "calories": 170,
+        "protein": 8,
+        "carbs": 25,
+        "fat": 4,
+        "fiber": 7,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "moong_dal_cheela",
+        "name": "Moong Dal Cheela",
+        "serving": "2 pieces",
+        "calories": 150,
+        "protein": 8,
+        "carbs": 22,
+        "fat": 3,
+        "fiber": 3,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "upvas_thalipeeth",
+        "name": "Thalipeeth (Fasting Flour Flatbread)",
+        "serving": "1 piece",
+        "calories": 140,
+        "protein": 4,
+        "carbs": 24,
+        "fat": 3,
+        "fiber": 4,
+        "regions": ["west"],
+        "types": ["vegetarian", "vegan", "jain"]
+      },
+      {
+        "id": "sprouts",
+        "name": "Mixed Sprouts Chaat",
+        "serving": "100g",
+        "calories": 120,
+        "protein": 7,
+        "carbs": 18,
+        "fat": 2,
+        "fiber": 5,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "peanuts",
+        "name": "Roasted Peanuts",
+        "serving": "30g",
+        "calories": 170,
+        "protein": 7,
+        "carbs": 6,
+        "fat": 14,
+        "fiber": 2,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan"]
+      },
+      {
+        "id": "boiled_egg",
+        "name": "Boiled Egg",
+        "serving": "2 eggs",
+        "calories": 140,
+        "protein": 12,
+        "carbs": 1,
+        "fat": 10,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["non-vegetarian", "eggetarian"]
+      },
+      {
+        "id": "chicken_salad",
+        "name": "Grilled Chicken Salad",
+        "serving": "100g chicken + veggies",
+        "calories": 180,
+        "protein": 28,
+        "carbs": 6,
+        "fat": 5,
+        "fiber": 3,
+        "regions": ["all"],
+        "types": ["non-vegetarian"]
+      },
+      {
+        "id": "yogurt_bowl",
+        "name": "Curd/Yogurt Bowl",
+        "serving": "150g",
+        "calories": 100,
+        "protein": 6,
+        "carbs": 10,
+        "fat": 4,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "buttermilk",
+        "name": "Buttermilk (Chaas)",
+        "serving": "200ml",
+        "calories": 40,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 1,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian"]
+      }
+    ],
+    "beverages": [
+      {
+        "id": "chai_masala",
+        "name": "Masala Chai",
+        "serving": "1 cup (200ml)",
+        "calories": 100,
+        "protein": 3,
+        "carbs": 12,
+        "fat": 4,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "green_tea",
+        "name": "Green Tea",
+        "serving": "1 cup (200ml)",
+        "calories": 5,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "lassi_sweet",
+        "name": "Sweet Lassi",
+        "serving": "200ml",
+        "calories": 180,
+        "protein": 6,
+        "carbs": 28,
+        "fat": 4,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian"]
+      },
+      {
+        "id": "nimbu_pani",
+        "name": "Nimbu Pani (Lemonade)",
+        "serving": "250ml",
+        "calories": 50,
+        "protein": 0,
+        "carbs": 13,
+        "fat": 0,
+        "fiber": 0,
+        "regions": ["all"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "shikanji",
+        "name": "Shikanji (Spiced Lemonade)",
+        "serving": "250ml",
+        "calories": 60,
+        "protein": 0,
+        "carbs": 15,
+        "fat": 0,
+        "fiber": 0,
+        "regions": ["north"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      },
+      {
+        "id": "coconut_water",
+        "name": "Coconut Water",
+        "serving": "250ml",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 9,
+        "fat": 0,
+        "fiber": 0,
+        "regions": ["south", "west"],
+        "types": ["vegetarian", "vegan", "eggetarian", "jain"]
+      }
+    ],
+    "breakfast_options": {
+      "north": [
+        {"id": "paratha_curd", "name": "Paratha with Curd", "calories": 340, "protein": 10},
+        {"id": "poha_sev", "name": "Poha with Sev", "calories": 220, "protein": 5},
+        {"id": "aloopara", "name": "Aloo Paratha with Butter", "calories": 340, "protein": 8},
+        {"id": "moong_dal", "name": "Moong Dal Cheela", "calories": 180, "protein": 10},
+        {"id": "egg_toast", "name": "Masala Omelette with Toast", "calories": 280, "protein": 16}
+      ],
+      "south": [
+        {"id": "idli_sambar", "name": "Idli with Sambar", "calories": 220, "protein": 8},
+        {"id": "dosa_sambar", "name": "Dosa with Sambar", "calories": 280, "protein": 10},
+        {"id": "uttapam", "name": "Uttapam with Chutney", "calories": 220, "protein": 7},
+        {"id": "upma", "name": "Upma with Chutney", "calories": 250, "protein": 7},
+        {"id": "pongal", "name": "Ven Pongal", "calories": 300, "protein": 9}
+      ],
+      "west": [
+        {"id": "thepla_dal", "name": "Thepla with Dal", "calories": 280, "protein": 11},
+        {"id": "poha", "name": "Kanda Poha", "calories": 200, "protein": 4},
+        {"id": "sheera", "name": "Sheera (Sooji Halwa)", "calories": 260, "protein": 5},
+        {"id": "upvas_ladoo", "name": "Singada Ladoo (Fasting)", "calories": 180, "protein": 3},
+        {"id": "missal", "name": "Misal Pav", "calories": 320, "protein": 12}
+      ],
+      "east": [
+        {"id": "luchi_aloo", "name": "Luchi with Aloo Dom", "calories": 300, "protein": 6},
+        {"id": "chole_kulcha", "name": "Chole Kulcha", "calories": 340, "protein": 12},
+        {"id": "dohkhlei", "name": "Dohkhlei (Poha)", "calories": 200, "protein": 4},
+        {"id": "cheshta", "name": "Cholar Dal with Luchi", "calories": 320, "protein": 10}
+      ],
+      "central": [
+        {"id": "poha", "name": "Poha", "calories": 200, "protein": 4},
+        {"id": "meduwada", "name": "Medu Wada with Chutney", "calories": 260, "protein": 9},
+        {"id": "uttapam", "name": "Uttapam", "calories": 220, "protein": 7}
+      ]
+    }
+  },
+  "meal_templates": {
+    "breakfast": {
+      "calories_ratio": 0.25,
+      "description": "Breakfast should be substantial and include complex carbs and protein"
+    },
+    "lunch": {
+      "calories_ratio": 0.35,
+      "description": "Lunch should be the heaviest meal with dal, rice, sabzi, and roti"
+    },
+    "snack": {
+      "calories_ratio": 0.10,
+      "description": "Light afternoon snack to maintain energy"
+    },
+    "dinner": {
+      "calories_ratio": 0.30,
+      "description": "Dinner should be lighter than lunch, easy to digest"
+    }
+  },
+  "calorie_targets": {
+    "lose_fat": -500,
+    "gain_muscle": 300,
+    "maintain": 0,
+    "improve_stamina": -200
+  }
+}

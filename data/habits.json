@@ -1,0 +1,416 @@
+{
+  "habits": {
+    "hydration": [
+      {
+        "id": "water_2l",
+        "name": "Drink 2 Liters of Water",
+        "description": "Stay hydrated throughout the day. Carry a water bottle.",
+        "duration": "Throughout the day",
+        "time_required": "5 min (to remember and track)",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Improves digestion, energy levels, skin health, and helps in weight management"
+      },
+      {
+        "id": "morning_water",
+        "name": "Drink Warm Water in the Morning",
+        "description": "Start your day with a glass of warm water. Add lemon if preferred.",
+        "duration": "Morning, empty stomach",
+        "time_required": "2 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Aids digestion, kickstarts metabolism, flushes toxins"
+      },
+      {
+        "id": "herbal_tea",
+        "name": "Switch One Cup of Chai to Herbal Tea",
+        "description": "Replace one regular chai with tulsi tea, ginger tea, or green tea.",
+        "duration": "Once daily",
+        "time_required": "5 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Reduces caffeine intake, anti-inflammatory properties, calming effect"
+      }
+    ],
+    "movement": [
+      {
+        "id": "walk_after_dinner",
+        "name": "10-Minute Walk After Dinner",
+        "description": "Take a light walk after your evening meal. Helps digestion and reduces blood sugar spikes.",
+        "duration": "10 minutes",
+        "time_required": "10 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Better digestion, improved blood sugar control, aids weight loss"
+      },
+      {
+        "id": "desk_stretch",
+        "name": "Stretch at Your Desk",
+        "description": "Every hour, stand up and do 5 minutes of stretching. Neck rolls, shoulder shrugs, wrist circles.",
+        "duration": "5 minutes each hour",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Reduces stiffness, improves posture, prevents back pain"
+      },
+      {
+        "id": "morning_stretch",
+        "name": "5-Minute Morning Stretch",
+        "description": "Start your day with simple stretches - neck, shoulders, arms, spine, legs.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Wakes up muscles, improves flexibility, sets a positive tone for the day"
+      },
+      {
+        "id": " staircase",
+        "name": "Take Stairs Instead of Lift",
+        "description": "Whenever possible, choose stairs over elevators and escalators.",
+        "duration": "Throughout the day",
+        "time_required": "2-3 min extra",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Builds leg strength, improves cardiovascular health, burns extra calories"
+      },
+      {
+        "id": "post_meal_walk",
+        "name": "Stand for 10 Minutes After Meals",
+        "description": "Avoid sitting immediately after eating. Stand or walk gently for 10 minutes.",
+        "duration": "10 minutes after each meal",
+        "time_required": "10 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Improves digestion, reduces bloating, helps maintain healthy weight"
+      }
+    ],
+    "mindfulness": [
+      {
+        "id": "gratitude_journal",
+        "name": "Gratitude Journaling",
+        "description": "Write down 3 things you're grateful for each day. Keep it simple and specific.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Improves mental health, reduces stress, increases positivity"
+      },
+      {
+        "id": "deep_breathing",
+        "name": "2-Minute Deep Breathing",
+        "description": "Practice 4-7-8 breathing: Inhale 4 seconds, hold 7 seconds, exhale 8 seconds.",
+        "duration": "2 minutes",
+        "time_required": "2 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Reduces anxiety, lowers blood pressure, calms the nervous system"
+      },
+      {
+        "id": "no_phone_morning",
+        "name": "No Phone for First 30 Minutes",
+        "description": "Don't check your phone for the first 30 minutes after waking up.",
+        "duration": "30 minutes each morning",
+        "time_required": "0 min (avoiding)",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Reduces morning anxiety, improves focus, better mental clarity"
+      },
+      {
+        "id": "no_phone_bed",
+        "name": "No Phone 30 Minutes Before Bed",
+        "description": "Put your phone away at least 30 minutes before bedtime. Read a book instead.",
+        "duration": "30 minutes before sleep",
+        "time_required": "0 min (avoiding)",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Better sleep quality, reduced blue light exposure, improves melatonin production"
+      },
+      {
+        "id": "meditation_5min",
+        "name": "5-Minute Meditation",
+        "description": "Sit comfortably, close your eyes, focus on your breath. When mind wanders, gently return.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Reduces stress, improves concentration, promotes emotional balance"
+      },
+      {
+        "id": "evening_reflection",
+        "name": "Evening Reflection",
+        "description": "Before bed, think about 3 good things that happened today and 1 thing to improve tomorrow.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Promotes self-awareness, improves sleep, reinforces positive thinking"
+      }
+    ],
+    "nutrition": [
+      {
+        "id": "add_green_veg",
+        "name": "Add One Serving of Green Vegetables",
+        "description": "Include one extra serving of leafy greens like spinach, methi, or palak in any meal.",
+        "duration": "With meals",
+        "time_required": "5 min prep",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Increases fiber, vitamins, and minerals; aids weight management"
+      },
+      {
+        "id": "no_fried_snacks",
+        "name": "Skip One Fried Snack",
+        "description": "Replace one fried snack (samosa, vada, pakora) with a healthier option like fruit or roasted chana.",
+        "duration": "Once daily",
+        "time_required": "0 min",
+        "stress_level": "any",
+        "goal_type": "lose_fat",
+        "difficulty": "medium",
+        "benefits": "Reduces calorie intake, lowers unhealthy fat consumption"
+      },
+      {
+        "id": "mindful_eating",
+        "name": "Mindful Eating for One Meal",
+        "description": "Eat one meal without screens. Chew slowly, taste each bite, stop when satisfied.",
+        "duration": "One meal per day",
+        "time_required": "20 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Better digestion, prevents overeating, improves relationship with food"
+      },
+      {
+        "id": "add_protein",
+        "name": "Add Protein to Breakfast",
+        "description": "Include protein at breakfast - eggs, paneer, dal, or yogurt instead of just carbs.",
+        "duration": "Breakfast",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "gain_muscle",
+        "difficulty": "easy",
+        "benefits": "Keeps you fuller longer, supports muscle building, stabilizes blood sugar"
+      },
+      {
+        "id": "prevention_handling",
+        "name": "Pre-Portion Your Meals",
+        "description": "Serve food in a bowl/plate instead of eating from the container. Avoid second helpings.",
+        "duration": "At each meal",
+        "time_required": "2 min",
+        "stress_level": "any",
+        "goal_type": "lose_fat",
+        "difficulty": "easy",
+        "benefits": "Controls portions naturally, reduces calorie intake without feeling deprived"
+      }
+    ],
+    "sleep": [
+      {
+        "id": "consistent_sleep_time",
+        "name": "Same Bedtime (Within 30 Minutes)",
+        "description": "Go to bed at the same time every night, even on weekends. Aim for 7-8 hours.",
+        "duration": "Nightly",
+        "time_required": "0 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Regulates body clock, improves sleep quality, better energy levels"
+      },
+      {
+        "id": "sleep_before_11",
+        "name": "Be in Bed by 10:30 PM",
+        "description": "Aim to be in bed by 10:30 PM to ensure quality sleep before 11 PM when melatonin peaks.",
+        "duration": "Nightly",
+        "time_required": "0 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Better sleep quality, aligns with natural circadian rhythm"
+      },
+      {
+        "id": "relaxation_before_bed",
+        "name": "20-Minute Wind-Down Routine",
+        "description": "Before bed: dim lights, read a book, do light stretching or listen to calming music.",
+        "duration": "20 minutes before bed",
+        "time_required": "20 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Signals body it's time to sleep, reduces cortisol, improves sleep onset"
+      }
+    ],
+    "digital_wellness": [
+      {
+        "id": "screen_time_limit",
+        "name": "Reduce Screen Time by 30 Minutes",
+        "description": "Set a screen time limit. Use that extra 30 minutes for a walk, reading, or family time.",
+        "duration": "Daily reduction",
+        "time_required": "0 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Reduces eye strain, improves mental health, more time for real connections"
+      },
+      {
+        "id": "social_media_break",
+        "name": "One Hour Social Media Break",
+        "description": "Take a break from Instagram, Facebook, WhatsApp for one hour. Read or take a walk instead.",
+        "duration": "1 hour",
+        "time_required": "0 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "hard",
+        "benefits": "Reduces anxiety, improves focus, better mental health"
+      },
+      {
+        "id": "no_phone_during_meals",
+        "name": "Phone Away During Meals",
+        "description": "Keep your phone in another room during breakfast, lunch, and dinner.",
+        "duration": "All meals",
+        "time_required": "0 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Mindful eating, better digestion, family bonding time"
+      }
+    ],
+    "productivity": [
+      {
+        "id": "morning_routine",
+        "name": "Complete Morning Routine Before 9 AM",
+        "description": "Finish bathing, breakfast, and planning before 9 AM. Start your day with intention.",
+        "duration": "Morning",
+        "time_required": "30 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Sets positive tone, reduces rushing, improves time management"
+      },
+      {
+        "id": "weekly_goal_setting",
+        "name": "Set 3 Priorities for Tomorrow",
+        "description": "Before bed, write down 3 most important tasks for the next day.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Clear focus, better time management, sense of accomplishment"
+      },
+      {
+        "id": "work_break_balance",
+        "name": "Pomodoro Technique at Work",
+        "description": "Work for 25 minutes, then take a 5-minute break. After 4 cycles, take a longer break.",
+        "duration": "Throughout workday",
+        "time_required": "5 min per break",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Maintains focus, prevents burnout, improves productivity"
+      }
+    ],
+    "social_connection": [
+      {
+        "id": "family_meal",
+        "name": "Eat One Meal with Family",
+        "description": "Have at least one meal per day with your family without screens.",
+        "duration": "One meal daily",
+        "time_required": "20 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Strengthens bonds, mindful eating, emotional well-being"
+      },
+      {
+        "id": "call_family",
+        "name": "Call a Family Member or Friend",
+        "description": "Make time to call a loved one. A 10-minute conversation can boost your mood.",
+        "duration": "10 minutes",
+        "time_required": "10 min",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Reduces loneliness, improves mood, maintains relationships"
+      },
+      {
+        "id": "weekly_social",
+        "name": "One Social Activity Per Week",
+        "description": "Meet a friend, join a club, or participate in a community activity once a week.",
+        "duration": "Weekly",
+        "time_required": "1-2 hours",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Builds community, prevents isolation, adds joy to life"
+      }
+    ],
+    "nature_outdoors": [
+      {
+        "id": "morning_sunlight",
+        "name": "Get 10 Minutes of Morning Sunlight",
+        "description": "Step outside within 30 minutes of waking to get natural sunlight. Good for vitamin D and circadian rhythm.",
+        "duration": "10 minutes",
+        "time_required": "10 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Vitamin D synthesis, better sleep, improved mood"
+      },
+      {
+        "id": "weekly_nature",
+        "name": "One Hour in Nature Weekly",
+        "description": "Visit a park, garden, or any green space for at least one hour per week.",
+        "duration": "Weekly",
+        "time_required": "1 hour",
+        "stress_level": "high",
+        "goal_type": "all",
+        "difficulty": "medium",
+        "benefits": "Reduces stress, improves mental health, boosts immunity"
+      },
+      {
+        "id": "plants_at_home",
+        "name": "Tend to Indoor Plants",
+        "description": "Water and care for indoor plants. Green spaces improve air quality and mood.",
+        "duration": "5 minutes",
+        "time_required": "5 min",
+        "stress_level": "any",
+        "goal_type": "all",
+        "difficulty": "easy",
+        "benefits": "Improves air quality, reduces stress, adds life to living space"
+      }
+    ]
+  },
+  "habit_categories": {
+    "hydration": "Water & Fluids",
+    "movement": "Physical Activity",
+    "mindfulness": "Mental Health",
+    "nutrition": "Eating Habits",
+    "sleep": "Rest & Recovery",
+    "digital_wellness": "Screen Time",
+    "productivity": "Work & Focus",
+    "social_connection": "Relationships",
+    "nature_outdoors": "Environment"
+  },
+  "weekly_habit_rotation": {
+    "monday": "hydration",
+    "tuesday": "movement",
+    "wednesday": "mindfulness",
+    "thursday": "nutrition",
+    "friday": "sleep",
+    "saturday": "digital_wellness",
+    "sunday": "nature_outdoors"
+  }
+}
